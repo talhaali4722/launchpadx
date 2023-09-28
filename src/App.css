@@ -1,0 +1,55 @@
+.my-modal .modal-content {
+  background-color: transparent;
+  border: none;
+}
+
+.my-modal .modal-content * {
+  color: white;
+}
+
+.flexDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexDisplayApart {
+  display: flex;
+  justify-content: space-between !important;
+}
+.flexDisplayApartVerticalCenter {
+  align-items: center;
+
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.flexDisplayApart {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+a {
+  cursor: pointer;
+}
+
+/* react bootstrap modal */
+.my-modal {
+}
+.my-modal .modal-content {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid white;
+}
+
+.loader-body {
+  text-align: center;
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+}
+
+input[type="checkbox"] {
+  accent-color: red;
+}

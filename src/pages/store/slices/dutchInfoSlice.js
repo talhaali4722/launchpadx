@@ -1,0 +1,33 @@
+const DutchauctionInfoSlice = (set) => ({
+  sellingAmount: "",
+  startPrice: "",
+  endPrice: "",
+  softCap: "",
+  hardCap: "",
+  minContribution: "",
+  maxContribution: "",
+  decreasePriceCycle: "",
+  liquidity: "",
+  refundType: "0",
+  startDate: new Date(),
+  endDate: "",
+  isWhiteListed: "0",
+  tokensStatus: "0",
+  setTokenStatus: (input) => set((state) => ({ tokensStatus: input })),
+  setIsWhiteListed: (input) => set((state) => ({ isWhiteListed: input })),
+  setSellingAmount: (input) => set((state) => ({ sellingAmount: input })),
+  setSoftCap: (input) => set((state) => ({ softCap: input })),
+  setHardCap: (input) => set((state) => ({ hardCap: input })),
+  setMinContribution: (input) => set((state) => ({ minContribution: input })),
+  setMaxContribution: (input) => set((state) => ({ maxContribution: input })),
+  setDecreasePriceCycle: (input) =>
+    set((state) => ({ decreasePriceCycle: input })),
+  setLiquidity: (input) => set((state) => ({ liquidity: input })),
+  setRefundType: (input) => set((state) => ({ refundType: input })),
+  setStartDate: (input) => set((state) => ({ startDate: input })),
+  setEndDate: (input) => set((state) => ({ endDate: input })),
+  setStartPrice: (input) => set((state) => ({ startPrice: input })),
+  setEndPrice: (input) => set((state) => ({ endPrice: input })),
+});
+
+export default DutchauctionInfoSlice;
